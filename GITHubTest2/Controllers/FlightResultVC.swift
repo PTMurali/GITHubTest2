@@ -15,6 +15,7 @@ class FlightResultVC: UIViewController {
 
           print("flight result vc this is...")
         // Do any additional setup after loading the view.
+        print("update from sys-2")
     }
     
 
