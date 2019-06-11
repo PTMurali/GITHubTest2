@@ -14,6 +14,7 @@
 		187E9FE222AF7B0A0049C7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E9FE022AF7B0A0049C7C6 /* LaunchScreen.storyboard */; };
 		187E9FEB22AF80AA0049C7C6 /* FlightResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E9FEA22AF80AA0049C7C6 /* FlightResultVC.swift */; };
 		187E9FED22AF82110049C7C6 /* HotelResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E9FEC22AF82110049C7C6 /* HotelResultVC.swift */; };
+		2EFA2B1322AF8B3300D9B9CE /* FlightDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2B1222AF8B3300D9B9CE /* FlightDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		187E9FE322AF7B0A0049C7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187E9FEA22AF80AA0049C7C6 /* FlightResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightResultVC.swift; sourceTree = "<group>"; };
 		187E9FEC22AF82110049C7C6 /* HotelResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelResultVC.swift; sourceTree = "<group>"; };
+		2EFA2B1222AF8B3300D9B9CE /* FlightDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				187E9FEA22AF80AA0049C7C6 /* FlightResultVC.swift */,
 				187E9FEC22AF82110049C7C6 /* HotelResultVC.swift */,
+				2EFA2B1222AF8B3300D9B9CE /* FlightDetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				187E9FDA22AF7AFB0049C7C6 /* ViewController.swift in Sources */,
 				187E9FD822AF7AFB0049C7C6 /* AppDelegate.swift in Sources */,
 				187E9FED22AF82110049C7C6 /* HotelResultVC.swift in Sources */,
+				2EFA2B1322AF8B3300D9B9CE /* FlightDetailVC.swift in Sources */,
 				187E9FEB22AF80AA0049C7C6 /* FlightResultVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
