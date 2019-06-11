@@ -37,7 +37,7 @@
         <!--Flight ResultVC-->
         <scene sceneID="lnO-KH-NTX">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="mI7-Me-ueR" customClass="FlightResultVC" customModule="GITHubTest2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlightResultVCSBID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mI7-Me-ueR" customClass="FlightResultVC" customModule="GITHubTest2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="trM-Vn-YUy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
