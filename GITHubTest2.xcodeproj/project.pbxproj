@@ -14,6 +14,7 @@
 		187E9FE222AF7B0A0049C7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E9FE022AF7B0A0049C7C6 /* LaunchScreen.storyboard */; };
 		187E9FEB22AF80AA0049C7C6 /* FlightResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E9FEA22AF80AA0049C7C6 /* FlightResultVC.swift */; };
 		187E9FED22AF82110049C7C6 /* HotelResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E9FEC22AF82110049C7C6 /* HotelResultVC.swift */; };
+		187E9FF122AF8E1E0049C7C6 /* HotelDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E9FF022AF8E1E0049C7C6 /* HotelDetailVC.swift */; };
 		2EFA2B1322AF8B3300D9B9CE /* FlightDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFA2B1222AF8B3300D9B9CE /* FlightDetailVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		187E9FE322AF7B0A0049C7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187E9FEA22AF80AA0049C7C6 /* FlightResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightResultVC.swift; sourceTree = "<group>"; };
 		187E9FEC22AF82110049C7C6 /* HotelResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelResultVC.swift; sourceTree = "<group>"; };
+		187E9FF022AF8E1E0049C7C6 /* HotelDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailVC.swift; sourceTree = "<group>"; };
 		2EFA2B1222AF8B3300D9B9CE /* FlightDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,13 +62,13 @@
 		187E9FD622AF7AFB0049C7C6 /* GITHubTest2 */ = {
 			isa = PBXGroup;
 			children = (
-				187E9FE922AF7FC70049C7C6 /* Controllers */,
 				187E9FD722AF7AFB0049C7C6 /* AppDelegate.swift */,
 				187E9FD922AF7AFB0049C7C6 /* ViewController.swift */,
 				187E9FDB22AF7AFB0049C7C6 /* Main.storyboard */,
 				187E9FDE22AF7B0A0049C7C6 /* Assets.xcassets */,
 				187E9FE022AF7B0A0049C7C6 /* LaunchScreen.storyboard */,
 				187E9FE322AF7B0A0049C7C6 /* Info.plist */,
+				187E9FE922AF7FC70049C7C6 /* Controllers */,
 			);
 			path = GITHubTest2;
 			sourceTree = "<group>";
@@ -74,11 +76,28 @@
 		187E9FE922AF7FC70049C7C6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				187E9FEA22AF80AA0049C7C6 /* FlightResultVC.swift */,
-				187E9FEC22AF82110049C7C6 /* HotelResultVC.swift */,
-				2EFA2B1222AF8B3300D9B9CE /* FlightDetailVC.swift */,
+				187E9FEF22AF8D770049C7C6 /* Flight */,
+				187E9FEE22AF8D5A0049C7C6 /* Hotel */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		187E9FEE22AF8D5A0049C7C6 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				187E9FEC22AF82110049C7C6 /* HotelResultVC.swift */,
+				187E9FF022AF8E1E0049C7C6 /* HotelDetailVC.swift */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		187E9FEF22AF8D770049C7C6 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				187E9FEA22AF80AA0049C7C6 /* FlightResultVC.swift */,
+				2EFA2B1222AF8B3300D9B9CE /* FlightDetailVC.swift */,
+			);
+			path = Flight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +175,7 @@
 				187E9FD822AF7AFB0049C7C6 /* AppDelegate.swift in Sources */,
 				187E9FED22AF82110049C7C6 /* HotelResultVC.swift in Sources */,
 				2EFA2B1322AF8B3300D9B9CE /* FlightDetailVC.swift in Sources */,
+				187E9FF122AF8E1E0049C7C6 /* HotelDetailVC.swift in Sources */,
 				187E9FEB22AF80AA0049C7C6 /* FlightResultVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
